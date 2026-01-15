@@ -34,3 +34,6 @@ site/dist
 .vercel
 vocs.config.tsx.timestamp*
 _
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
