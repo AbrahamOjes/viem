@@ -18,8 +18,6 @@ src/node/trustedSetups_esm.ts
 .pnpm-store
 
 # local env files
-.env
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
@@ -34,3 +32,8 @@ site/dist
 .vercel
 vocs.config.tsx.timestamp*
 _
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
+branch_structure.json
+config.bat

@@ -3,8 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vocs dev",
-    "build": "NODE_OPTIONS=\"--max-old-space-size=16384\" vocs build --searchIndex false && vocs search-index",
+    "dev": "node init && vocs dev",
+    "build": "node init && NODE_OPTIONS=\"--max-old-space-size=16384\" vocs build --searchIndex false && vocs search-index",
     "twoslash": "vocs twoslash",
     "preview": "vocs preview"
   },
